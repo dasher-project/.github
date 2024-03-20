@@ -1,10 +1,9 @@
 # Dasher project code repositories
-Welcome to the Dasher project code repositories maintained by the
+Welcome to the Dasher project code repositories currently maintained by the
 [Ace Centre](https://acecentre.org.uk/) charity.
 
-Dasher is an Augmentative and Alternative Communication (AAC) system for text
-entry. For information on Dasher and the latest Dasher apps see its
-[home page on the Ace Centre website](https://dasher.acecentre.net/).
+Dasher is an alternative text entry system that may replace an on-screen keyboard or as an Alternative & Augmentative Communication tool. For information on Dasher and the latest Dasher apps see its
+[home page on the Dasher Website](https://dasher.acecentre.net/).
 
 -   Dasher Version 5
     [github.com/dasher-project/dasher](https://github.com/dasher-project/dasher/)  
