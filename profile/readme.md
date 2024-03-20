@@ -2,7 +2,9 @@
 Welcome to the Dasher project code repositories currently maintained by the
 [Ace Centre](https://acecentre.org.uk/) charity.
 
-Dasher is an alternative text entry system that may replace an on-screen keyboard or as an Alternative & Augmentative Communication tool. For information on Dasher and the latest Dasher apps see its
+Dasher is an alternative text entry system that may replace an on-screen
+keyboard or be used as an Alternative and Augmentative Communication tool. For
+information on Dasher and the latest Dasher apps see its
 [home page on the Dasher Website](https://dasher.acecentre.net/).
 
 -   Dasher Version 5
