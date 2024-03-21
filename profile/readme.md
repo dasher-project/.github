@@ -33,5 +33,3 @@ information on Dasher and the latest Dasher apps see its
 -   Governance
     [github.com/dasher-project/governance](https://github.com/dasher-project/governance/)  
     The official governance model for all the projects here.
-
-Copyright (c) 2024 The ACE Centre-North, UK registered charity 1089313.
