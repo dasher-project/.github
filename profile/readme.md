@@ -27,6 +27,15 @@ information on Dasher and the latest Dasher apps see its
     A front-end for the modernized DasherCore based on GTK that is in active
     development to replace the Dasher Version 5 at some point in the future.
 
+-   [Dasher Windows](https://github.com/dasher-project/Dasher-Windows)  
+    A front-end for the modernized DasherCore based on Avalonia.
+    
+-   [Dasher Apple](https://github.com/dasher-project/Dasher-Apple)  
+    A front-end for the modernized DasherCore based on SwiftUI. For iOS, MacOS, VisionOS
+
+-   [Dasher Design Guide for v6](https://github.com/dasher-project/dasher-design-guide)  
+    A front-end for the modernized DasherCore based on SwiftUI. For iOS, MacOS, VisionOS
+
 -   [Dasher in Web Technologies](https://github.com/dasher-project/dasher-web)  
     Re-implementation of Dasher in web technologies, HTML, CSS, JavaScript, and
     SVG. MIT licensed.
