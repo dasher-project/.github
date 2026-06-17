@@ -51,5 +51,5 @@ Contributions are welcome! See the
 for project-wide conventions, and each repo's own `CONTRIBUTING.md` for
 platform-specific build instructions.
 
-Dasher is maintained by the [Ace Centre](https://acecentre.org.uk/) charity
-and licensed under MIT (v6) or GPL-2.0 (v5), depending on the repository.
+Dasher is maintained by Will Wade and the dasher-project team, and is
+licensed under MIT (v6) or GPL-2.0 (v5), depending on the repository.
