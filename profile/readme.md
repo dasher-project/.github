@@ -1,12 +1,15 @@
 # Dasher project code repositories
 Welcome to the Dasher project code repositories currently maintained by the
-[Ace Centre](https://acecentre.org.uk/) charity.
+Will Wade and the dasher-project team. 
 
 Dasher is an alternative text entry system that may replace an on-screen
 keyboard or be used as an Alternative and Augmentative Communication tool. For
 information on Dasher and the latest Dasher apps see its
-[home page on the Dasher Website](https://dasher.acecentre.net/).
+[home page on the Dasher Website](https://dasher.at).
 
+-   [Governance Documents](https://github.com/dasher-project/governance/)  
+    The official governance model for all the projects here.
+    
 -   [Dasher Version 5](https://github.com/dasher-project/dasher/)  
     Fork of the Dasher repository maintained by the GNOME project. The code is
     GPL-2.0 licensed, same as the original Dasher. The programming language is
@@ -37,12 +40,11 @@ information on Dasher and the latest Dasher apps see its
     A front-end for the modernized DasherCore based on SwiftUI. For iOS, MacOS, VisionOS
 
 -   [Dasher in Web Technologies](https://github.com/dasher-project/dasher-web)  
-    Re-implementation of Dasher in web technologies, HTML, CSS, JavaScript, and
-    SVG. MIT licensed.
+    This is the DasherCore in WASM showing how we can do use this for the web. NOTE: there is historic data in branches of JS only approaches. 
+
+## Archived
 
 -   [Dasher custom keyboards for Android and iOS](https://github.com/dasher-project/dasher-captivewebview/)  
     Instances of Dasher in Web Technologies, above, that can be used for text
     entry in any Android or iOS app. MIT licensed.
 
--   [Governance Documents](https://github.com/dasher-project/governance/)  
-    The official governance model for all the projects here.
