@@ -1,0 +1,43 @@
+name: ↔️ Platform parity
+description: Track a capability across all Dasher frontends
+title: 'Parity: <capability name>'
+labels: ['parity']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to track a single capability across every frontend.
+        When the status changes, update the comment and (ideally) the feature
+        matrix at `website/src/data/feature-status.yaml` (rendered at
+        https://dasher.at/status/).
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: Input / Rendering / Language / Output / Settings / Onboarding / Accessibility / Game Mode
+    validations:
+      required: true
+  - type: input
+    id: core-dep
+    attributes:
+      label: DasherCore dependency
+      placeholder: e.g. V6 calibration API, pointer event stream
+    validations:
+      required: true
+  - type: textarea
+    id: matrix
+    attributes:
+      label: Status per platform
+      description: One line per platform. Status options: shipped / beta / planned / not-supported / n/a
+      placeholder: |
+        - Apple:   shipped (v1.0)
+        - Windows: beta (issue #123)
+        - GTK:     not-supported (OS limitation)
+        - Android: planned
+        - Web:     shipped
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / design reference

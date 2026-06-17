@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Developer handbook
+    url: https://dasher.at/developers/
+    about: Architecture, build guides, the feature matrix and how to propose changes.
+  - name: 💬 Dasher Slack
+    url: https://dasher.at/
+    about: Questions and chat — ask a maintainer for a Slack invite.
