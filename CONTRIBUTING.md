@@ -46,4 +46,36 @@ A pull request is ready to merge when:
 - **Small, focused PRs** are easier to review and land faster.
 - **Talk to us first** for big changes — open an issue or an RFC.
 
+## Developer Certificate of Origin (DCO)
+
+All contributions to the Dasher project must be signed off under the
+[Developer Certificate of Origin](https://developercertificate.org/). This is
+a lightweight alternative to a CLA — it affirms that you wrote (or have the
+right to submit) the code you're contributing.
+
+**How to sign off:** add `-s` (or `--signoff`) to your commit command:
+
+```sh
+git commit -s -m "your commit message"
+```
+
+This adds a `Signed-off-by:` trailer to the commit message automatically. If
+you forgot, you can amend:
+
+```sh
+git commit --amend -s --no-edit
+```
+
+For an existing PR with multiple unsigned commits, rebase with signoff:
+
+```sh
+git rebase --signoff BASE_BRANCH
+git push --force-with-lease
+```
+
+> **Why DCO instead of a CLA?** Dasher is MIT-licensed and community-driven. A
+> full CLA adds legal friction for volunteers. The DCO achieves provenance
+> tracking with a single line, and is the same model used by the Linux kernel,
+> Git, and many other open-source projects.
+
 _This file is the organisation-wide default. Individual repositories may add their own `CONTRIBUTING.md` with platform-specific build steps and rules, which take precedence here._

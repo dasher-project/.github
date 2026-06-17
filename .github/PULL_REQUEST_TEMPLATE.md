@@ -29,3 +29,4 @@ see the blast radius:
 - [ ] Tests added for new behaviour
 - [ ] Feature matrix updated if this affects a cross-platform capability
 - [ ] Docs / changelog updated if the change is user-facing
+- [ ] Commits are signed off (DCO) — `git commit -s`
