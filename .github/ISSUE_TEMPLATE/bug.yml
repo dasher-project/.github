@@ -1,0 +1,52 @@
+name: 🐛 Bug report
+description: Something isn't working as expected
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! If you're not sure which repo
+        is right, pick the frontend you were using. See the platform status at
+        https://dasher.at/status/.
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repository / Frontend
+      options:
+        - DasherCore (engine)
+        - Dasher-Apple (iOS / macOS / visionOS)
+        - Dasher-Windows (Avalonia)
+        - Dasher-GTK (Linux)
+        - website (dasher.at)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Dasher version
+      placeholder: e.g. 1.0.0, 0.1.0-preview3, or a commit SHA
+  - type: input
+    id: platform
+    attributes:
+      label: Platform & OS
+      placeholder: e.g. macOS 14.4, Windows 11, Ubuntu 24.04, iPadOS 17
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, what you expected, and what actually happened.
+      placeholder: |
+        1. Open Dasher
+        2. ...
+        Expected: ...
+        Actual: ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Anything in the console, dasher.log, or a screenshot. Paste between triple backticks.

@@ -1,0 +1,42 @@
+name: ✨ Feature request
+description: Suggest a new capability or improvement
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the _behaviour_ you want, not just the implementation on one
+        platform. If this should exist on multiple platforms, consider opening a
+        **Platform parity** issue instead so we can track it everywhere.
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: "As a … I want … so that …"
+      placeholder: As an eye-gaze user, I want … so that …
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Which platform(s)?
+      multiple: true
+      options:
+        - All platforms (parity)
+        - DasherCore (engine)
+        - Apple (iOS / macOS / visionOS)
+        - Windows (Avalonia)
+        - GTK (Linux)
+        - Android
+        - Web
+    validations:
+      required: true
+  - type: input
+    id: core-dep
+    attributes:
+      label: DasherCore dependency (if known)
+      placeholder: e.g. requires a new C API callback / V6 event stream
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

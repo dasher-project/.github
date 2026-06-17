@@ -1,0 +1,49 @@
+# Contributing to the Dasher Project
+
+First off — thank you for wanting to contribute to Dasher! Dasher is a
+predictive, continuous-gesture text-entry system used worldwide as an
+assistive tool (eye-gaze, head-trackers, switches, joysticks and more).
+This guide gets you started; the full developer handbook lives at
+**<https://dasher.at/developers/>**.
+
+## The big picture
+
+Dasher v6 is one **shared engine** consumed by several **native frontends**:
+
+| Repository | Platform | UI stack | DasherCore integration |
+| --- | --- | --- | --- |
+| [`DasherCore`](https://github.com/dasher-project/DasherCore) | All | C++ engine + C API | _is_ the engine |
+| [`Dasher-Apple`](https://github.com/dasher-project/Dasher-Apple) | iOS / macOS / visionOS | SwiftUI | compiled core + C API header |
+| [`Dasher-Windows`](https://github.com/dasher-project/Dasher-Windows) | Windows | Avalonia (.NET) | `dasher.dll` via P/Invoke |
+| [`Dasher-GTK`](https://github.com/dasher-project/Dasher-GTK) | Linux (+ Win/macOS fallback) | GTK4 / gtkmm | `libdasher.so` linked |
+| [`website`](https://github.com/dasher-project/website) | Web | Astro | docs + public status |
+
+Before touching a frontend, read **[DasherCore's C API contract](https://github.com/dasher-project/DasherCore/blob/main/docs/C_API.md)**
+and the **[cross-platform feature matrix](https://dasher.at/status/)** — it
+shows what every platform already supports so we keep parity.
+
+## Where to go next
+
+- **Building a specific platform:** see the developer handbook at <https://dasher.at/developers/> and the `README.md` / `CONTRIBUTING.md` inside the relevant repo.
+- **Coding standards:** [`DasherCore/CONTRIBUTING.md`](https://github.com/dasher-project/DasherCore/blob/main/CONTRIBUTING.md) is the project's gold standard (no naked `new`/`delete`, `const`-correctness, zero warnings, clean API boundaries). Each frontend repo states its own language-specific rules.
+- **Design tokens:** the normative source of truth is [`dasher-design-guide/DESIGN.md`](https://github.com/dasher-project/dasher-design-guide/blob/main/DESIGN.md).
+- **Proposing a cross-platform change:** read the [RFC process](https://github.com/dasher-project/governance#decision-making) in our governance repo.
+
+## Definition of Done
+
+A pull request is ready to merge when:
+
+- [ ] CI is green (build + tests + lint + format, as applicable to the repo).
+- [ ] New behaviour has tests.
+- [ ] If the change affects a cross-platform capability, the **feature matrix** (`website/src/data/feature-status.yaml`) has been updated in this or a linked PR.
+- [ ] If the change is a new UX/hardware interaction, an **RFC** is linked.
+- [ ] Docs / changelog are updated if the change is user-facing.
+
+## Quick expectations
+
+- **Be kind.** Our [Code of Conduct](./CODE_OF_CONDUCT.md) applies across every Dasher repository and our Slack.
+- **Open a PR, not a direct push.** Reviews are required on `main`.
+- **Small, focused PRs** are easier to review and land faster.
+- **Talk to us first** for big changes — open an issue or an RFC.
+
+_This file is the organisation-wide default. Individual repositories may add their own `CONTRIBUTING.md` with platform-specific build steps and rules, which take precedence here._
