@@ -14,9 +14,11 @@ Dasher v6 is one **shared engine** consumed by several **native frontends**:
 | --- | --- | --- | --- |
 | [`DasherCore`](https://github.com/dasher-project/DasherCore) | All | C++ engine + C API | _is_ the engine |
 | [`Dasher-Apple`](https://github.com/dasher-project/Dasher-Apple) | iOS / macOS / visionOS | SwiftUI | compiled core + C API header |
+| [`Dasher-Android`](https://github.com/dasher-project/Dasher-Android) | Android | Kotlin / Jetpack Compose | `libdasher.so` via JNI |
 | [`Dasher-Windows`](https://github.com/dasher-project/Dasher-Windows) | Windows | Avalonia (.NET) | `dasher.dll` via P/Invoke |
 | [`Dasher-GTK`](https://github.com/dasher-project/Dasher-GTK) | Linux (+ Win/macOS fallback) | GTK4 / gtkmm | `libdasher.so` linked |
-| [`website`](https://github.com/dasher-project/website) | Web | Astro | docs + public status |
+| [`dasher-web`](https://github.com/dasher-project/dasher-web) | Web (WASM) | Rust / WASM | DasherCore compiled to WASM |
+| [`website`](https://github.com/dasher-project/website) | — | Astro | docs + public feature-status matrix (not a frontend) |
 
 Before touching a frontend, read **[DasherCore's C API contract](https://github.com/dasher-project/DasherCore/blob/main/docs/C_API.md)**
 and the **[cross-platform feature matrix](https://dasher.at/status/)** — it
