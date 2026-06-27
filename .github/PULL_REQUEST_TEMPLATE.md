@@ -18,7 +18,7 @@ see the blast radius:
 
 - [ ] This changes a capability that users see on **other platforms**.
       If checked, I have opened / updated the feature matrix
-      (`website/src/data/feature-status.yaml`) — linked PR: #
+      (`website/src/data/feature-status.json`) — linked PR: #
       _(or confirmed this is genuinely platform-specific-only)_
 - [ ] This introduces a **new UX or hardware interaction**.
       If checked, an RFC (`governance/rfcs`) is linked: #

@@ -8,7 +8,7 @@ body:
       value: |
         Use this template to track a single capability across every frontend.
         When the status changes, update the comment and (ideally) the feature
-        matrix at `website/src/data/feature-status.yaml` (rendered at
+        matrix at `website/src/data/feature-status.json` (rendered at
         https://dasher.at/status/).
   - type: input
     id: category
