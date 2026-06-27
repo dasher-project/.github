@@ -17,8 +17,10 @@ lives in the engine.
 | :----------------------------------------------------------------------------------------------------- | :-------------------------------------- | :-------------- |
 | [DasherCore](https://github.com/dasher-project/DasherCore)                                             | The engine — language models, rendering maths, settings, alphabets, flat C API | C++17           |
 | [Dasher-Apple](https://github.com/dasher-project/Dasher-Apple)                                         | iOS, macOS, visionOS apps + keyboard extension        | SwiftUI         |
+| [Dasher-Android](https://github.com/dasher-project/Dasher-Android)                                     | Android app + IME keyboard service                   | Kotlin / Compose |
 | [Dasher-Windows](https://github.com/dasher-project/Dasher-Windows)                                     | Windows desktop app                                 | Avalonia (.NET) |
 | [Dasher-GTK](https://github.com/dasher-project/Dasher-GTK)                                             | Linux desktop app (cross-platform build)            | GTK4 / gtkmm    |
+| [dasher-web](https://github.com/dasher-project/dasher-web)                                             | In-browser WASM demo (powers the live demo on dasher.at) | Rust / WASM |
 | [dasher-design-guide](https://github.com/dasher-project/dasher-design-guide)                           | Design tokens, settings structure, parity spec      | Markdown        |
 | [website](https://github.com/dasher-project/website)                                                   | Source code for [dasher.at](https://dasher.at)     | Astro           |
 
@@ -28,13 +30,6 @@ lives in the engine.
 - **[Feature status matrix](https://dasher.at/status/)** — what each platform supports (v6 + v5 baseline)
 - **[Integrating DasherCore](https://dasher.at/docs/development/)** — C API, pre-built binaries
 - **[Governance & RFCs](https://github.com/dasher-project/governance)** — decision process
-
-### Web demo
-
-[dasher-web](https://github.com/dasher-project/dasher-web) — DasherCore
-compiled to WASM. Powers the live demo on the
-[homepage](https://dasher.at). Available for anyone who wants to embed Dasher
-on the web.
 
 ## Legacy & archived
 
@@ -47,7 +42,7 @@ on the web.
 ## Contributing
 
 Contributions are welcome! See the
-[contributing guide](https://github.com/dasher-project/.github/blob/main/.github/CONTRIBUTING.md)
+[contributing guide](https://github.com/dasher-project/.github/blob/main/CONTRIBUTING.md)
 for project-wide conventions, and each repo's own `CONTRIBUTING.md` for
 platform-specific build instructions.
 
