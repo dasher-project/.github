@@ -35,7 +35,7 @@ A pull request is ready to merge when:
 
 - [ ] CI is green (build + tests + lint + format, as applicable to the repo).
 - [ ] New behaviour has tests.
-- [ ] If the change affects a cross-platform capability, the **feature matrix** (`website/src/data/feature-status.yaml`) has been updated in this or a linked PR.
+- [ ] If the change affects a cross-platform capability, the **feature matrix** (`website/src/data/feature-status.json`) has been updated in this or a linked PR.
 - [ ] If the change is a new UX/hardware interaction, an **RFC** is linked.
 - [ ] Docs / changelog are updated if the change is user-facing.
 
