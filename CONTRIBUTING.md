@@ -26,7 +26,7 @@ shows what every platform already supports so we keep parity.
 
 ## Where to go next
 
-- **Building a specific platform:** see the developer handbook at <https://dasher.at/developers/> and the `README.md` / `CONTRIBUTING.md` inside the relevant repo.
+- **Building a specific platform:** see the developer handbook at <https://dasher.at/developers/> and the `README.md` / `CONTRIBUTING.md` inside the relevant repo. Frontend repos should follow the [README template](./README-TEMPLATE.md).
 - **Coding standards:** [`DasherCore/CONTRIBUTING.md`](https://github.com/dasher-project/DasherCore/blob/main/CONTRIBUTING.md) is the project's gold standard (no naked `new`/`delete`, `const`-correctness, zero warnings, clean API boundaries). Each frontend repo states its own language-specific rules.
 - **Design tokens:** the normative source of truth is [`dasher-design-guide/DESIGN.md`](https://github.com/dasher-project/dasher-design-guide/blob/main/DESIGN.md).
 - **Proposing a cross-platform change:** read the [RFC process](https://github.com/dasher-project/governance#decision-making) in our governance repo.
