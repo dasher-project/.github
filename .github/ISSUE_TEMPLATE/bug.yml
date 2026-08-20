@@ -17,6 +17,7 @@ body:
         - Dasher-Apple (iOS / macOS / visionOS)
         - Dasher-Windows (Avalonia)
         - Dasher-GTK (Linux)
+        - Dasher-Android (Android)
         - website (dasher.at)
         - Other
     validations:
@@ -30,7 +31,7 @@ body:
     id: platform
     attributes:
       label: Platform & OS
-      placeholder: e.g. macOS 14.4, Windows 11, Ubuntu 24.04, iPadOS 17
+      placeholder: e.g. macOS 14.4, Windows 11, Ubuntu 24.04, iPadOS 17, Android 15
     validations:
       required: true
   - type: textarea
